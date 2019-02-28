@@ -4,17 +4,23 @@
 
 1.Number1 
 ```
-Page made in html, css
+Page made in html, css, sass(to development)
+
+Files from production are in dist folder
 ```
 
 2.Number2 
 ```
-Page made in html, css
+Page made in html, css, sass(to development)
+
+Files from production are in dist folder
 ```
 
 3.Number3 
 ```
-Page made in html, css
+Page made in html, css, sass(to development)
+
+Files from production are in dist folder
 ```
 
 4.Number4 
