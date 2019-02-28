@@ -2,21 +2,21 @@
 
 #Description folders
 
-1. Number1 
+# Number1 
 ```
 Page made in html, css, sass(to development)
 
 Files from production are in dist folder
 ```
 
-2. Number2 
+# Number2 
 ```
 Page made in html, css, sass(to development)
 
 Files from production are in dist folder
 ```
 
-3. Number3 
+# Number3 
 ```
 Page made in html, css, sass(to development)
 
@@ -37,7 +37,7 @@ and now everything waht you change in scss/main.scss will be bundled to dist/css
 
 ```
 
-4. ## Number4 
+# Number4 
 
 ### Page made in Vue
 
@@ -60,7 +60,7 @@ go to folder:
 - src/views/review  if you wanna change reviews page
 
 
-5. Number5 
+# Number5 
 
 ### Page made in React
 
@@ -82,7 +82,7 @@ go to folder:
 - src/Components/Presentation/Menu   if you wana change home page
 - src/Components/Presentation/Reviews   if you wana change Reviews page
 
-6. Number6 
+# Number6 
 
 ### Page made in Angular7
 
