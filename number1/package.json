@@ -1,0 +1,26 @@
+{
+  "name": "seotests",
+  "version": "1.0.0",
+  "description": "1. angular7\r 2. vue\r 3. react\r 4. html5\r 5. html4\r 6. html3",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive http-server",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasz18/Seo-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasz18/Seo-tests/issues"
+  },
+  "homepage": "https://github.com/tobiasz18/Seo-tests#readme"
+}

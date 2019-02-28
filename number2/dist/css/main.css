@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+header, nav, .navigation, .navigation ul, section h2 {
+  float: left;
+  width: 100%; }
+
+.navigation ul {
+  display: flex;
+  justify-content: center; }
+
+body {
+  margin: 0%;
+  font-family: "Courgette", cursive; }
+
+.navigation {
+  background-image: linear-gradient(black, #2f2f2f); }
+  .navigation ul {
+    padding: 10px 0px; }
+    .navigation ul li {
+      float: left;
+      list-style-type: none; }
+      .navigation ul li a {
+        padding: 15px;
+        color: white;
+        font-size: 18px; }
+
+.Logo {
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  float: left;
+  width: 96%;
+  height: 130px;
+  font-size: 30px;
+  background-image: linear-gradient(#FF5722, #FF9800);
+  color: whitesmoke; }
+  .Logo a {
+    color: aliceblue;
+    width: 100%;
+    max-width: 1050px;
+    margin: auto; }
+
+section {
+  padding: 35px;
+  max-width: 980px;
+  margin: auto;
+  display: flex;
+  flex-direction: column; }
+  section h2 {
+    margin: 75px 0;
+    font-size: 25px;
+    font-weight: 100; }
+  section div {
+    max-width: 780px; }
+    section div p {
+      border-bottom: 1px solid #00000030;
+      padding: 20px; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(#FF5722, #FF9800);
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  footer p {
+    padding: 3px; }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100vw; }
+  .Logo {
+    padding-left: 15px; }
+    .Logo a {
+      width: 75%; } }

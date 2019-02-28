@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Laila');
+
+$mainFont: 'Laila', serif;
+$mainColor: white;
+
+body {
+    background-color: $mainColor;
+    font-family: $mainFont;
+    margin: 0;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+header {
+    background-image: linear-gradient(135deg, #6793b7 0%, #04b9ff 100%)
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        display: flex;
+        justify-content: center;   
+    }
+}
+
+
+li {
+    list-style-type: none;
+    
+    &:first-child {
+     
+       padding-right: 10vw;
+     }
+    
+
+    a {
+        text-decoration: none;
+        padding: 15px 35px;
+        color: white;
+        float: left;
+    }
+}
+
+main {
+    margin: 150px 0;
+    max-width: 980px;
+    margin: auto;
+
+    section {
+        
+        text-align: center; 
+    }
+ 
+    p {
+        padding: 15px;
+    }
+}
+
+//menu
+main {
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+table {
+    min-width: 400px;
+}
+
+//table
+tr{
+    td {
+        text-align: left;
+    }
+    th {
+        text-align: left;
+    }
+}
+
+article > div {
+    display: flex;
+    flex-direction: center;
+}
+
+section > div {
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 15px;
+    max-width: 750px;
+    border-color: #f1f1f1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(135deg, #6793b7 0%, #04b9ff 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    p {
+        padding: 3px;
+    }
+}
+
+article:first-child {
+    padding: 50px; 
+}
+
+@media only screen and (max-width: 495px) {
+    li {        
+        a {
+            padding: 5px;
+        }
+    }
+        
+}

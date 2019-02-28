@@ -1,0 +1,50 @@
+.container_Home {
+    text-align: center;
+    background-image: url("img/crosso.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+header {
+    top: 300px;
+    position: relative;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+}
+
+p {
+    padding: 0 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 750px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+.content {
+    color: white;
+}
+
+
+table {
+    color: white;
+    text-align: left;
+    max-width: 400px;
+    /*margin-top: 75px;
+    padding:20px;
+    font-weight: 900;*/
+}
+/*
+tr > td:first-child {
+    text-align: left;
+}*/

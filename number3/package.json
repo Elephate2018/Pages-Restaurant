@@ -1,0 +1,23 @@
+{
+  "name": "seotests",
+  "version": "1.0.0",
+  "description": "1. angular7\r 2. vue\r 3. react\r 4. html-1          = in html5\r 5. html-2          = in html5\r 6. html-3          = in html5",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss -o dist/css -r",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasz18/Seo-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasz18/Seo-tests/issues"
+  },
+  "homepage": "https://github.com/tobiasz18/Seo-tests#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,16 @@
+
+<nav class="topnav" id="myTopnav">
+  <a routerLink="" routerLinkActive="active" (click)="setTitle( 'Pizzarella' )" class="logo">Pizzarella - Home</a>
+  <a class="anchor" routerLink="/Reviews" routerLinkActive="active" (click)="setTitle( 'Pizzarella - Reviews' )" >Reviews</a> 
+  <a class="anchor" href="javascript:void(0);" style="font-size:15px; float: right;" class="icon"  (click)="updatePendingApprovals('hi')">&#9776;</a>
+</nav>
+
+
+
+
+<router-outlet></router-outlet>
+
+<footer>       
+  <p>© 2019 Pizzarella </p>
+  <p>24183 Williamson Neck, 78658-0030, Canabrava do Norte, State of Mato Grosso</p>        
+</footer>

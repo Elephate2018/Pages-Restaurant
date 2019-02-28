@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Raleway:300');
+
+body  {
+   background: white;
+   font-family: 'Raleway', sans-serif;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+    min-height: 750px;
+    
+
+    footer {
+        text-align: center;
+
+        p {
+            font-size: 13px;          
+        }
+    }
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: auto;
+    background: linear-gradient(#3549a0, #111638);
+    color: #ffffff85;
+    border-radius: 5px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        min-width: 180px;
+    }
+
+    a {
+        font-size: 25px;
+        font-family: 'Coiny', cursive;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .navigation {
+        padding: 15px;
+    
+
+        ul {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;    
+        }
+
+        li {
+           
+            a {
+                padding: 7px 20px;
+                text-decoration: none;
+                font-size: 19px;
+                color: white;
+            }
+
+            a:after {
+                height: 50%;
+            }
+        }
+    }
+}
+
+tr {
+    :first-child {
+        min-width: 300px;
+    }
+}
+
+article {
+    margin: 50px 0;
+    background: #202b64;
+    color: #bac0dc;
+    padding: 30px;
+    border-radius: 7px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+article > div {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    border-color: #303a6b;
+    width: 100%;
+}

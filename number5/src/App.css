@@ -1,0 +1,135 @@
+.App {
+  float: left;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav {
+ float: left;
+ width: 100%;
+ color: white;
+}
+
+nav ul {
+  margin: 0;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-left: 9vw;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+  padding-top: 25px;
+ 
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in-out 0.3s;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+nav ul li:hover a{
+  color: red;
+  border-color: red;
+}
+
+article {
+  min-width: 200px;
+  max-width: 980px;
+  margin: auto;
+  border-radius: 20px;
+  line-height: 20px;
+  border: solid 1px;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #d8d8d8;
+  border-color: #505050;
+}
+
+.container {
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+section {
+  border-bottom: 1px solid;
+ 
+  text-align: left;
+  font-size: 15px;
+}
+
+section h5 {
+  text-align: left;
+ 
+}
+
+section > div {
+  padding-top: 20px!important;
+  padding-bottom:  10px;
+}
+
+article > div {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+article > div > div {
+  display: inline-block; 
+  text-align: left;
+}
+
+table {
+  width: 500px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+article div {
+  padding-top: 0;
+}
+
+tr > td:first-child {
+  text-align: left;
+  min-width: 150px!important;
+}
+tr > th:first-child {
+  text-align: left;
+}
+
+footer p {
+  background: black;
+  padding: 2px!important;
+  padding-top: 1px!important;
+  color: white;
+  padding: 7px 0;
+  margin: 0;
+  font-size: 13px;
+}
+.content {
+  text-align: left;
+}

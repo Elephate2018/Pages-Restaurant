@@ -1,0 +1,23 @@
+main {
+    text-align: center;
+}
+
+section {
+    max-width: 600px!important;
+    margin: 100px auto;
+}
+
+.container_reviews {
+    text-align: left;
+}
+
+p {
+    border-left: 1px solid;
+    text-transform: initial;
+    border-left: 1px solid;
+    padding: 35px;
+    text-transform: initial;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  
+}
