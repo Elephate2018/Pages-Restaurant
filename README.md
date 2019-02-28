@@ -37,7 +37,7 @@ and now everything waht you change in scss/main.scss will be bundled to dist/css
 
 ```
 
-4. Number4 
+4. ## Number4 
 
 ### Page made in Vue
 
