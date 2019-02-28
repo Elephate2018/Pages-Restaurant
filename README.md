@@ -24,9 +24,27 @@ Files from production are in dist folder
 ```
 
 4.Number4 
-```
+
 Page made in Vue
-```
+
+## installation
+
+### (development)
+- npm install 
+- npm run build ( create static file to public on page)  
+- npm run serve ( run serve development )
+
+### (Production files)
+
+Production files are in dist folder ( created by command npm run build )
+
+### How to change text
+
+go to folder: 
+
+- src/views/menu   if you wana change home page
+- src/views/review  if you wanna change reviews page
+
 
 5.Number5 
 ```
