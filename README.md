@@ -23,9 +23,23 @@ Page made in html, css, sass(to development)
 Files from production are in dist folder
 ```
 
+_________________________________________________
+### About sass
+```
+styles made with
+https://www.npmjs.com/package/node-sass
+
+if you wanna change css best option is using node cli so: 
+npm install 
+npm run sass 
+
+and now everything waht you change in scss/main.scss will be bundled to dist/css/main.css
+
+```
+
 4. Number4 
 
-# Page made in Vue
+### Page made in Vue
 
 ## installation
 
@@ -48,7 +62,7 @@ go to folder:
 
 5. Number5 
 
-# Page made in React
+### Page made in React
 
 ## installation
 
@@ -70,7 +84,7 @@ go to folder:
 
 6. Number6 
 
-# Page made in Angular7
+### Page made in Angular7
 
 ## installation
 
