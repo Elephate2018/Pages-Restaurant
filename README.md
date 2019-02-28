@@ -2,28 +2,28 @@
 
 #Description folders
 
-1.Number1 
+1. Number1 
 ```
 Page made in html, css, sass(to development)
 
 Files from production are in dist folder
 ```
 
-2.Number2 
+2. Number2 
 ```
 Page made in html, css, sass(to development)
 
 Files from production are in dist folder
 ```
 
-3.Number3 
+3. Number3 
 ```
 Page made in html, css, sass(to development)
 
 Files from production are in dist folder
 ```
 
-4.Number4 
+4. Number4 
 
 # Page made in Vue
 
@@ -46,7 +46,7 @@ go to folder:
 - src/views/review  if you wanna change reviews page
 
 
-5.Number5 
+5. Number5 
 
 # Page made in React
 
@@ -68,7 +68,7 @@ go to folder:
 - src/Components/Presentation/Menu   if you wana change home page
 - src/Components/Presentation/Reviews   if you wana change Reviews page
 
-6.Number6 
+6. Number6 
 
 # Page made in Angular7
 
